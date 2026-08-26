@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FacesbyYisha | Makeup Artistry</title>
+<meta name="description" content="FacesbyYisha — luxury makeup artistry. Soft glam, bridal and special occasion makeup.">
+<style>
+:root{--black:#090909;--gold:#d4af37;--cream:#f7f1e8;--muted:#c9bda9}
+*{box-sizing:border-box} body{margin:0;background:var(--black);color:var(--cream);font-family:Arial,sans-serif;line-height:1.6}
+nav{display:flex;justify-content:space-between;align-items:center;padding:22px 7%;position:absolute;width:100%;z-index:2}
+.logo{font-family:Georgia,serif;font-size:24px;letter-spacing:2px;color:var(--gold)} nav a{color:var(--cream);text-decoration:none;margin-left:25px;font-size:13px;letter-spacing:1px}
+.hero{min-height:100vh;display:flex;align-items:center;padding:130px 7% 80px;background:radial-gradient(circle at 75% 35%,#3a2b0d 0,#15120c 18%,#090909 48%);position:relative;overflow:hidden}
+.hero:after{content:"";position:absolute;width:520px;height:520px;border:1px solid rgba(212,175,55,.25);border-radius:50%;right:-180px;top:18%}
+.hero-content{max-width:720px;position:relative;z-index:1}
+.kicker{color:var(--gold);letter-spacing:5px;text-transform:uppercase;font-size:12px}
+h1{font:normal clamp(54px,9vw,105px)/.9 Georgia,serif;margin:20px 0;color:var(--cream)}
+h1 span{color:var(--gold);font-style:italic}
+.hero p{max-width:520px;color:var(--muted);font-size:17px}
+.btn{display:inline-block;margin-top:25px;padding:14px 25px;border:1px solid var(--gold);color:var(--black);background:var(--gold);text-decoration:none;text-transform:uppercase;letter-spacing:2px;font-size:12px;margin-right:10px}
+.btn.alt{background:transparent;color:var(--gold)}
+section{padding:90px 7%}.center{text-align:center}.eyebrow{color:var(--gold);letter-spacing:4px;text-transform:uppercase;font-size:11px}
+h2{font:normal clamp(34px,5vw,55px) Georgia,serif;margin:12px 0 45px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;max-width:1100px;margin:auto}
+.card{border:1px solid #332d22;padding:32px;background:#0f0e0c}.card h3{font:normal 27px Georgia,serif;color:var(--gold);margin-top:0}.card p{color:var(--muted)}
+.about{background:var(--cream);color:#17130d}.about p{max-width:720px;margin:auto;color:#5d5142;font-size:17px}.about h2{color:#17130d}
+.booking{background:#11100d;text-align:center}.contact{display:flex;justify-content:center;gap:14px;flex-wrap:wrap;margin-top:30px}
+footer{padding:30px 7%;border-top:1px solid #29251d;text-align:center;color:#8e8578;font-size:12px;letter-spacing:1px}
+@media(max-width:700px){nav .links{display:none}.grid{grid-template-columns:1fr}.hero{min-height:90vh}section{padding:70px 6%}}
+</style>
+</head>
+<body>
+<nav>
+  <div class="logo">FACESBY<span style="color:#f7f1e8">YISHA</span></div>
+  <div class="links"><a href="#about">ABOUT</a><a href="#services">SERVICES</a><a href="#booking">BOOK</a></div>
+</nav>
+
+<header class="hero">
+  <div class="hero-content">
+    <div class="kicker">Luxury Makeup Artistry</div>
+    <h1>Faces <span>by</span> Yisha</h1>
+    <p>Flawless, elegant makeup designed to enhance your natural beauty and leave you feeling confident, polished and unforgettable.</p>
+    <a class="btn" href="https://wa.me/2349037935828">Book on WhatsApp</a>
+    <a class="btn alt" href="mailto:salamiayomide628@gmail.com">Email Us</a>
+  </div>
+</header>
+
+<section id="services">
+  <div class="center">
+    <div class="eyebrow">The FacesbyYisha Experience</div>
+    <h2>Beauty, beautifully defined.</h2>
+  </div>
+  <div class="grid">
+    <div class="card"><h3>Soft Glam</h3><p>Refined, radiant makeup that enhances your features while keeping your look effortless and elegant.</p></div>
+    <div class="card"><h3>Bridal</h3><p>Timeless bridal glam created with care, precision and attention to every detail of your special day.</p></div>
+    <div class="card"><h3>Special Occasions</h3><p>Camera-ready looks for birthdays, celebrations, photoshoots, events and every moment worth remembering.</p></div>
+  </div>
+</section>
+
+<section class="about" id="about">
+  <div class="center">
+    <div class="eyebrow">About FacesbyYisha</div>
+    <h2>Where beauty meets artistry.</h2>
+    <p>FacesbyYisha is a luxury makeup artistry brand dedicated to creating personalized looks that bring out the most confident version of you. Every face is treated as a canvas, every detail is intentional, and every finished look is uniquely yours.</p>
+  </div>
+</section>
+
+<section class="booking" id="booking">
+  <div class="eyebrow">Ready for your glam?</div>
+  <h2>Let's create your look.</h2>
+  <p style="color:#c9bda9">For bookings and enquiries, contact FacesbyYisha directly.</p>
+  <div class="contact">
+    <a class="btn" href="https://wa.me/2349037935828">WhatsApp</a>
+    <a class="btn alt" href="mailto:salamiayomide628@gmail.com">Email</a>
+  </div>
+</section>
+
+<footer>© 2026 FacesbyYisha · Makeup Artistry · Your face, our canvas.</footer>
+</body>
+</html>
